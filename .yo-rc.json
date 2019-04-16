@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "BorrowerApp",
+    "packageName": "com.axway.presales.borrower",
+    "packageFolder": "com/axway/presales/borrower",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "N2MwMjcwOTk0MjM1NzQ2MzA4Y2IwMjhmMmQ1ZmU0N2MxOTY4MGJhMjczNmViNTgxODU5ZmRlNDczYTQxOGM1M2JkYzFjNjQzODBjOGYyZjk4NWY3NmEzODkyODdjOTQ3NTI4YmY4OWIyYThlNTgxYmNjMTUyNGM3YWZhNGMwN2Q=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "jbleroy1",
+  "repository-name": "BorrowerApp"
+}
