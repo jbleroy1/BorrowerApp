@@ -1,0 +1,18 @@
+entity Credit {
+	amount String required,
+    currency String required,
+    duration String required,
+    why Instant required,
+    borrower String required,
+    status Status required
+}
+enum Status {
+    REFUSED, ACCEPTED, PENDING
+  }
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+// Set an angular suffix
+angularSuffix * with view
