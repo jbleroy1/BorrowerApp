@@ -1,0 +1,18 @@
+entity Borrower {
+	firstname String required,
+    lastname String required,
+    age Integer required,
+    gender Gender required,
+    birthday Instant required,
+    address String required
+}
+enum Gender {
+    MALE, FEMALE
+  }
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+// Set an angular suffix
+angularSuffix * with view
